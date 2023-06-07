@@ -1,0 +1,336 @@
+@media screen and (min-width:1600px) {
+    .otp .next-btn {
+        margin-top: 57px;
+    }
+}
+@media screen and (max-width:1600px) {
+.infi-para {
+    width: 78%;
+}
+.uni-main {
+    height: 100%;
+}
+.acc-reg-divison {
+    padding-top: 150px;
+}
+}
+@media screen and (max-width:1400px) {
+    .login-contain {
+        padding-top: 50px;
+    }
+    .univ-login-input {
+        padding-block: 13px !important;
+    }.next-btn {
+        padding-block: 13px !important;
+    }
+    .password .univ-login-input {
+        padding-block: 6px !important;
+    }
+}
+@media screen and (max-width:1199px) {
+    .login-contain {
+        width: 315px;
+    }
+}
+@media screen and (max-width:1024px) {
+    .univ-log {
+        width: 184px;
+        height: 73px;
+    }
+    .login-contain {
+        /* padding-bottom: 70px; */
+        padding-top: 30px;
+    }
+    .infi-para {
+        width: 60%;
+        padding-bottom: 20px;
+    }
+    .wel-para {
+        padding-bottom: 17px;
+    }
+    
+}
+@media screen and (min-width:768) and (max-width:991px) {
+    .rober-information {
+        width: 50%;
+        margin-inline: auto;
+     
+    }
+}
+@media screen and (max-width:992px){
+    /* parathaman start */
+    .header{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .border-left{
+        border: unset;
+    }
+    /* parathaman end */
+}
+@media screen and (max-width:991px) {
+    .univ-log {
+        width: 165px;
+        height: 72px;
+    }.welcome-division {
+        padding-block: 50px;
+    }
+    .acc-reg {
+        margin-bottom: 20px !important;
+    }
+    .unive-background
+    {
+        height: 100%;
+    }
+    .col-div:nth-child(2) {
+        height: 100%;
+    }
+    .unive-background {
+        display: none;
+    }
+    .univ-main-wrapper{
+        background-image: url(../asset/images/banner-shadow.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .uni-main {
+        background: #fff;
+        border-radius: 19px;
+        overflow-y: scroll;
+       height: calc(100% - 12%);
+       width: 60%;
+    }
+    .acc-reg-divison {
+        padding-top: 100px;
+    }.back-icon {
+        margin-bottom: 94px;
+    }
+    .rober-information {
+        margin-bottom: 28px;
+    }
+    .manu-iterm {
+        margin-bottom: 19px;
+    }
+
+}
+@media screen and (min-width:768px){
+      /* parathaman start */
+    .hamburger{
+        display: none;
+    }
+      /* parathaman end */
+}
+@media screen and (max-width:767px) {
+    .infi-para {
+        width: 75%;
+    }
+    .password .next-btn {
+        margin-block: 20px;
+    }
+    .otp-class input {
+        width: 45px;
+        height: 45px;
+        margin-right: 15px;
+    }
+    .uni-main {
+        width: 70%;
+    }
+    .booking-popup-modal
+    {
+        width: 95% !important;
+        margin-inline: auto !important;
+    }
+    /* parathaman start */
+    .menu-iterm-inner {
+        order: 2;
+        padding-block: 10px;
+    }
+    .header{
+        justify-content: center;
+    }
+    .prfile-top {
+        width: 100%;
+        justify-content: space-around;
+    }.manu-iterm {
+        justify-content: start;
+        flex-direction: column;
+        width: 100%;
+    }
+    .activites-card {
+        width: 90%;
+        margin-inline: auto;
+        float: inherit;
+    }
+    .menu-iterm-inner{
+        width: 100%;
+        justify-content: space-around;
+    }
+    .footer-top {
+        padding: 30px 0 30px 0;
+    }
+    .banner_inner,.banner-header{
+        margin: 0 !important;
+    }
+    .profile-popup-main {
+        left: -12px;
+    }
+    /* new */
+    .manu-iterm,.menu-iterm-inner,.prfile-top {
+
+        flex-direction: column;
+    }
+    .btn-member {
+        order: 2;
+    }
+    .btn-member a{
+        margin: 0;
+    }
+    .header-logo {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+    }
+    .header-logo img{
+        width: 150px;
+        height: 62px;
+     
+    }
+    .manu-iterm{
+      left: -65%;
+      position: fixed;
+      top: 0;
+      height: 100vh;
+    }
+    .manu-iterm.open{
+        position: fixed;
+        z-index: 999;
+        background: #fff;
+        width: 65%;
+        left: 0;
+        padding: 20px;
+        top: 0;
+        border-radius: 0px 10px 10px 0;
+        height: 100vh;
+    }
+    .hamburger{
+        display: block;
+    }
+    .hamburger.open span:first-child {
+        transform: rotate(45deg) translate(5px, 7px);
+    }
+    .hamburger.open span:last-child {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+    .hamburger.open span:nth-child(2) {
+        transform: translate(0px, 17px);
+    }
+    .header,.header-logo,.hamburger,.manu-iterm{
+        transition: all 0.9s;
+
+    }
+    .tooltip-popup-main {
+        top: 118px;
+    }
+    .nave-iterm
+    {
+        width: fit-content;
+        padding-bottom: 5px;
+        margin-bottom: 5px;
+    }
+    .festival-price-inner {
+        padding: 6px 4px;
+    }
+    .festival-price-inner.expired {
+        height: 62px;
+    }
+    h1.festival-amount {
+        margin-bottom: 10px
+    
+    ;
+    }
+    .festival-detail button {
+        display: block;
+        margin: auto;
+    }
+    .activites-card-inner-section {
+        padding-bottom: 20px;
+    }
+    .activities-home-screen::after, .activities-home-screen::before {
+        z-index: -1;
+        opacity: 0.7;
+    }
+      /* parathaman end */
+}
+
+@media screen and (max-width:567px) {
+    .welcome-division {
+        padding-block: 20px;
+    }
+    .powering-para {
+        padding-top: 20px;
+    }
+    .wel-para {
+        padding-bottom: 5px;
+    }
+    .univ-log {
+        width: 135px;
+        height: 60px;
+    }
+    .login-contain {
+        padding: 20px 0px 60px 0px;
+    }
+    .next-btn {
+        margin-top: 30px;
+    }  
+    .mbl-add {
+        padding-top: 20px;
+    } 
+    .uni-main {
+        width: 75%;
+    }
+    .otp-class input {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+    .signup-5 .login-contain {
+        padding-bottom: 0;
+    }
+}
+@media screen and (max-width:425px) {
+      /* parathaman start */
+    .btn-member a{
+        margin: 0;
+        padding: 11px 10px;
+    }
+    .footer-top{
+        justify-content: center;
+    }
+    .footer-top div {
+        margin: 9px;
+    }
+    .footer-top div{
+        justify-content: center;
+    }
+    .footer-header{
+        text-align: center;
+    }
+      /* parathaman end */
+    
+}
+
+@media screen and (max-width:424px) {
+
+    .uni-main {
+        width: 85%;
+    }
+}
+@media screen and (max-width:374px) {
+    .infi-para {
+        width: 79%;
+    }
+    .book-all {
+        width: 133px;
+    }
+}

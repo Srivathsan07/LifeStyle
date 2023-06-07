@@ -1,0 +1,79 @@
+:root{
+    --font16:16px; --line16:20px;
+    --font17:17px; --line17:24px;
+    --font18:18px; --line18:23px;
+    --font20:20px; --line20:25px;
+    --font22:22px; --line22:24px;
+    --font26:26px; --line26:33px;
+    --font28:28px; --line28:30px;
+    --font30:30px; --line30:35px;
+    --font32:32px; --line32:40px;
+    --font36:36px; --line36:45px;
+    --font38:38px; --line38:48px;
+    --font40:40px; --line40:28px;
+    --font46:46px; --line46:50px;
+    --font60:60px; --line60:75px;
+}
+@media screen and (max-width:1600px) {
+    :root{
+    --font60:45px;
+    --font26:21px;
+    }
+}
+@media screen and (max-width:1400px) {
+    :root{
+        /* --font16:16px;
+        --font17:17px; */
+        --font18:17px;
+        --font20:19px; --line20:21px;
+        --font22:21px; --line20:24px;
+        --font26:19px; --line26:28px;
+        --font28:27px; --line28:30px;
+        --font30:29px; --line30:34px;
+        --font32:30px; --line32:34px;
+        --font36:30px; --line36:38px;
+        --font38:36px; --line38:40px;
+        --font40:38px; --line40:42px;
+        --font46:40px; --line46:43px;
+        --font60:40px; --line60:56px;
+    }
+    
+}
+@media screen and (max-width:1024px) {
+    :root{
+    --font32:27px;
+    --font60:36px;
+    }
+}
+@media screen and (max-width:991px) {
+    :root{
+    --font32:25px;
+    }
+}
+@media screen and (max-width:768px) {
+    :root{
+        --font16:13px;--line16:18px;
+        --font17:14px;--line17:20px;
+        --font18:15px;--line18:20px;
+        --font20:18px;--line20:20px;
+        --font22:20px;--line22:23px;
+        --font28:25px;--line28:30px;
+        --font30:27px;--line30:34px;
+        --font32:20px;--line32:35px;
+        --font36: 22px;--line36:36px;
+        --font38:25px;--line38:38px;
+        --font40:28px;--line40:40px;
+        --font46:30px;--line46:36px;
+    }
+    
+}
+@media screen and (max-width:425px) {
+    :root{
+        --font26:17px;
+        --font32:20px;
+        --font36: 22px;
+        --font60:30px;
+        --line60: 35px; 
+    }
+    
+}
